@@ -39,7 +39,7 @@ gem 'turbolinks'
 gem 'geokit-rails'
 gem 'clockwork'
 gem 'pg'
-gem 'sqlite3'
+gem 'sqlite3', '~> 1.3.9'
 
 # to use debugger
 # gem 'ruby-debug'
