@@ -39,7 +39,6 @@ gem 'turbolinks'
 gem 'geokit-rails'
 gem 'clockwork'
 gem 'pg'
-gem 'sqlite3', '~> 1.3.9'
 
 # to use debugger
 # gem 'ruby-debug'
@@ -57,7 +56,7 @@ group :development do
 end
 
 group :test do
-  gem 'sqlite3-ruby', '1.3.3', :require => 'sqlite3'
+  #gem 'sqlite3-ruby', '1.3.3', :require => 'sqlite3'
   gem 'rspec-rails', '~> 2.14.1'
   gem 'spork'
   gem 'factory_girl_rails'
