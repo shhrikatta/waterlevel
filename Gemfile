@@ -38,6 +38,8 @@ gem 'tzinfo-data'
 gem 'turbolinks'
 gem 'geokit-rails'
 gem 'clockwork'
+gem 'pg'
+gem 'sqlite3'
 
 # to use debugger
 # gem 'ruby-debug'
@@ -67,4 +69,3 @@ group :test do
   gem 'ZenTest'
   gem 'database_cleaner', '~> 1.2.0'
 end
-
