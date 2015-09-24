@@ -38,7 +38,8 @@ gem 'tzinfo-data'
 gem 'turbolinks'
 gem 'geokit-rails'
 gem 'clockwork'
-gem 'pg'
+gem 'pg', '~> 0.18.3'
+#gem install pg -v '0.18.3'
 
 # to use debugger
 # gem 'ruby-debug'
